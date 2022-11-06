@@ -2,7 +2,7 @@ baseURL: "https://www.example.com/"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "Lean"
+title: "ean"
 
 # googleAnalytics: ""
 
@@ -49,20 +49,20 @@ menus:
       url: "/#"
       weight: 2
 
-    - name: "Lean Advising"
-      url: "/#"
+    - name: "Rate Calculator"
+      url: "/calculator"
       weight: 3
 
-    - name: "Rate Calculator"
+    - name: "Mission"
       url: "/#"
       weight: 4
 
-    - name: "Mission"
+    - name: "Sign in"
       url: "/blog"
       weight: 5
 
   buttons:
-    - name: "Sign in/Sign up"
+    - name: "Sign up"
       url: "/#"
       weight: 5
       pre: "btn btn-primary text-light"
