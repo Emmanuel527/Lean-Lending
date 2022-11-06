@@ -16,28 +16,38 @@
     <div class="flex justify-center m-10">
     <form>
         <label for="fname">Name</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" placeholder="Enter Full Name" id="fname"><br>
 
-        <label for="fname">Age</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="age">Age</label><br>
+        <input type="text" placeholder="Enter Age" id="age"><br>
 
-        <label for="fname">Address</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="address">Address</label><br>
+        <input type="text" placeholder="Enter Address" id="address"><br>
 
-        <label for="fname">Loan Purpose:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="loan">Loan Purpose:</label><br>
+        <input type="text" placeholder="Enter Loan Purpose" id="loan"><br>
 
-        <label for="fname">Installments:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="installments">Installments:</label><br>
+        <input type="text" placeholder="Enter number of months" id="installments"><br>
 
-        <label for="fname">FICO Score</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="score">FICO Score</label><br>
+        <input type="text" placeholder="Enter FICO Score" id="score"><br>
 
-        <label for="fname">SSN:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="ssn">SSN:</label><br>
+        <input type="text" placeholder="Enter SSN" id="ssn"><br>
 
-        <button class="bg-indigo-500 px-4 py-2 text-white">Submit</button>
+        <button class="bg-indigo-500 px-4 py-2 text-white" onclick="message()">Submit</button>
+
+        <p id="test"></p>
+
+        <script>
+            function message(){
+                document.getElementById("test").innerHTML = "";
+            }
+        </script>
       </form>
     </div>
+
+
 </body>
 </html>

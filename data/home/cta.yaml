@@ -2,7 +2,7 @@ enabled: true
 id: "cta"
 
 content:
-  title: "Lean into your future **today**"
+  title: "Lean into your future today"
   button:
     label: "Check us out"
     url: "#"
