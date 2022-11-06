@@ -2,26 +2,27 @@ enabled: true
 id: "services"
 
 content:
-  title: "Our main services"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  title: "What makes us different"
+  text: "We’re changing the game for millions of Americans being taken advantage of by predatory lenders. Our first-of-its kind risk analysis uses AI to help borrowers traditional lenders can’t."
   cards:
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+
+    - image: "images/7990325-removebg-preview.png"
+      title: "Ditch your debt"
+      text: "We want you to crush your old debts–not start new ones. Our personal loans start at 6% APR and never exceed 20%."
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+    - image: "images/5331054-removebg-preview.png"
+      title: "Get paid early"
+      text: "Lean's hyper-intelligent fraud detection and risk analysis tools mean you wait seconds–not days–to get your quote"
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+    - image: "images/4650132-removebg-preview.png"
+      title: "Grow beyond"
+      text: "Harness the power of advanced artificial intelligence and develop a financial plan to live comfortably well after your loan."
       button:
         label: "Learn more"
         url: "#"
